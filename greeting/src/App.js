@@ -7,6 +7,17 @@ function App() {
     justifyContent: "center",
     height: "100vh",
   };
+  const h1Style = {
+    gap: "10px",
+    borderRadius: "20px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "40vw",
+    height: "10vh",
+    backgroundColor: "pink",
+    color: "black",
+  };
   const changeColor = {};
   const time = new Date();
   const hours = time.getHours();
@@ -25,11 +36,6 @@ function App() {
       changeColor.color = "yellow";
       return " good night"; 
     }
-  };
-  const h1Style = {
-    height: "5vh",
-    // backgroundColor: "black",
-    color: "black",
   };
   return (
     <div className="" style={styleGreet}>
