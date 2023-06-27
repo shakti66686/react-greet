@@ -16,14 +16,14 @@ function App() {
       changeColor.color = "pink";
       return "good morning";
     } else if (hours >= 12 && hours < 18) {
+       changeColor.color = "green";
       return "good afternoon";
-      changeColor.color = "green";
     } else if (hours >= 18 && hours < 20) {
+       changeColor.color = "red";
       return " good evening";
-      changeColor.color = "red";
     } else {
-      return " good night";
       changeColor.color = "yellow";
+      return " good night"; 
     }
   };
   const h1Style = {
